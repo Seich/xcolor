@@ -86,7 +86,7 @@ fn run(args: &ArgMatches) -> Result<()> {
                     set_selection(&conn, root, &selection.unwrap(), &output)?;
                 }
             } else {
-                println!("{}", output);
+                print!("{}", output);
             }
         }
     }
